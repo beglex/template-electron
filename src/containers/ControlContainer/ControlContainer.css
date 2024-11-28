@@ -1,0 +1,12 @@
+div.control {
+  display: grid;
+  grid-template-columns: 6fr 1fr;
+  gap: 1rem;
+  align-items: center;
+}
+
+div.control div {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}

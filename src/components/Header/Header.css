@@ -1,0 +1,9 @@
+h1.header,
+h2.header,
+h3.header,
+h4.header,
+h5.header,
+h6.header {
+  color: var(--color-primary);
+  user-select: none;
+}

@@ -1,0 +1,16 @@
+p.paragraph {
+  color: var(--color-primary);
+}
+
+p.paragraph::selection {
+  background-color: var(--color-warning);
+  color: var(--color-background)
+}
+
+p.paragraph.warning {
+  color: var(--color-warning);
+}
+
+p.paragraph.success {
+  color: var(--color-success);
+}
